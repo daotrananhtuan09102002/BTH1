@@ -111,5 +111,15 @@ namespace BTH1
             // resize picture
             pictureBox6.Size = new Size(249, 188); //resize 
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
