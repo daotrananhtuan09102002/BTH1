@@ -26,10 +26,6 @@ namespace Baithuchanh1
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -98,9 +94,42 @@ namespace Baithuchanh1
 
         private void label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
             this.Hide();
             this.HomeForm.getPanel6 = false;
             this.HomeForm.getPanel8 = true;
+        }
+
+        private void pictureBox5_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox5.Image = Image.FromFile("C:\\Users\\tuan\\source\\repos\\BTH1\\BTH1\\Resources\\Login1.png");
+        }
+
+        private void pictureBox5_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox5.Image = Image.FromFile("C:\\Users\\tuan\\source\\repos\\BTH1\\BTH1\\Resources\\Login.png");
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

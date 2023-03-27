@@ -97,7 +97,8 @@ namespace BTH1
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-
+            DetailItem item = new DetailItem();
+            item.Show();
         }
 
         private void pictureBox6_MouseLeave(object sender, EventArgs e)
@@ -112,6 +113,91 @@ namespace BTH1
             pictureBox6.Size = new Size(249, 188); //resize 
         }
 
+        private void pictureBox9_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox9.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox9_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox9.Size = new Size(249, 188); //resize 
+        }
+
+        // change color when hover picture box 10
+        private void pictureBox10_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox10.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox10_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox10.Size = new Size(249, 188); //resize 
+        }
+
+        private void pictureBox11_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox11.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox11_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox11.Size = new Size(249, 188); //resize 
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox7.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox7_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox7.Size = new Size(249, 188); //resize 
+        }
+
+        private void pictureBox8_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox8.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox8_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox8.Size = new Size(249, 188); //resize 
+        }
+
+        private void pictureBox12_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox12.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox12_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox12.Size = new Size(249, 188); //resize 
+        }
+
+        private void pictureBox13_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox13.Size = new Size(243, 182); //resize 
+        }
+
+        private void pictureBox13_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox13.Size = new Size(249, 188); //resize 
+        }
+
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -120,6 +206,32 @@ namespace BTH1
         private void pictureBox21_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void panel10_Click(object sender, EventArgs e)
+        {
+            DetailItem detailItem = new DetailItem();
+            detailItem.Show();
+        }
+
+        private void panel10_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
         }
     }
 }

@@ -69,92 +69,118 @@
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             panel8 = new Panel();
+            label73 = new Label();
             label8 = new Label();
             label7 = new Label();
             pictureBox5 = new PictureBox();
             panel9 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel17 = new Panel();
+            label68 = new Label();
             label23 = new Label();
             label24 = new Label();
             pictureBox13 = new PictureBox();
             panel25 = new Panel();
+            label66 = new Label();
             label39 = new Label();
             label40 = new Label();
             pictureBox21 = new PictureBox();
             panel27 = new Panel();
+            label70 = new Label();
             label43 = new Label();
             label44 = new Label();
             pictureBox23 = new PictureBox();
             panel26 = new Panel();
+            label69 = new Label();
             label41 = new Label();
             label42 = new Label();
             pictureBox22 = new PictureBox();
             panel21 = new Panel();
+            label72 = new Label();
             label31 = new Label();
             label32 = new Label();
             pictureBox17 = new PictureBox();
             panel18 = new Panel();
+            label51 = new Label();
             label25 = new Label();
             label26 = new Label();
             pictureBox14 = new PictureBox();
             panel15 = new Panel();
+            label59 = new Label();
             label19 = new Label();
             label20 = new Label();
             pictureBox11 = new PictureBox();
             panel11 = new Panel();
+            label58 = new Label();
             label11 = new Label();
             label12 = new Label();
             pictureBox7 = new PictureBox();
             panel12 = new Panel();
+            label63 = new Label();
             label13 = new Label();
             label14 = new Label();
             pictureBox8 = new PictureBox();
             panel13 = new Panel();
+            label50 = new Label();
             label15 = new Label();
             label16 = new Label();
             pictureBox9 = new PictureBox();
             panel14 = new Panel();
+            label71 = new Label();
             label17 = new Label();
             label18 = new Label();
             pictureBox10 = new PictureBox();
             panel20 = new Panel();
             label29 = new Label();
+            label52 = new Label();
             label30 = new Label();
             pictureBox16 = new PictureBox();
             panel19 = new Panel();
+            label60 = new Label();
             label27 = new Label();
             label28 = new Label();
             pictureBox15 = new PictureBox();
             panel22 = new Panel();
+            label61 = new Label();
             label33 = new Label();
             label34 = new Label();
             pictureBox18 = new PictureBox();
             panel29 = new Panel();
+            label57 = new Label();
             label47 = new Label();
             label48 = new Label();
             pictureBox25 = new PictureBox();
             panel16 = new Panel();
+            label62 = new Label();
             label21 = new Label();
             label22 = new Label();
             pictureBox12 = new PictureBox();
             panel23 = new Panel();
+            label64 = new Label();
             label35 = new Label();
             label36 = new Label();
             pictureBox19 = new PictureBox();
             panel24 = new Panel();
+            label65 = new Label();
             label37 = new Label();
             label38 = new Label();
             pictureBox20 = new PictureBox();
             panel28 = new Panel();
+            label67 = new Label();
             label45 = new Label();
             label46 = new Label();
             pictureBox24 = new PictureBox();
             panel10 = new Panel();
+            label49 = new Label();
             label10 = new Label();
             label9 = new Label();
             pictureBox6 = new PictureBox();
             panel30 = new Panel();
+            pictureBox26 = new PictureBox();
+            label53 = new Label();
+            label54 = new Label();
+            label55 = new Label();
+            label56 = new Label();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
@@ -211,6 +237,7 @@
             panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -248,11 +275,11 @@
             panel1.Controls.Add(label4);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label3);
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
+            panel1.Location = new Point(0, 100);
             panel1.Name = "panel1";
-            panel1.Size = new Size(360, 1033);
+            panel1.Size = new Size(305, 913);
             panel1.TabIndex = 5;
+            panel1.Paint += panel1_Paint;
             // 
             // panel5
             // 
@@ -580,7 +607,7 @@
             panel6.Controls.Add(pictureBox1);
             panel6.Controls.Add(label2);
             panel6.Controls.Add(label1);
-            panel6.Location = new Point(1019, 10);
+            panel6.Location = new Point(1440, 9);
             panel6.Name = "panel6";
             panel6.Size = new Size(165, 82);
             panel6.TabIndex = 6;
@@ -600,7 +627,7 @@
             panel7.BorderStyle = BorderStyle.FixedSingle;
             panel7.Controls.Add(textBox1);
             panel7.Controls.Add(pictureBox2);
-            panel7.Location = new Point(56, 24);
+            panel7.Location = new Point(446, 23);
             panel7.Name = "panel7";
             panel7.Size = new Size(852, 52);
             panel7.TabIndex = 7;
@@ -617,7 +644,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.DeepSkyBlue;
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(794, 1);
             pictureBox2.Name = "pictureBox2";
@@ -629,17 +656,18 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1265, 26);
+            pictureBox3.Location = new Point(1696, 25);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(57, 55);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 8;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1365, 26);
+            pictureBox4.Location = new Point(1796, 25);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(57, 55);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -648,19 +676,30 @@
             // 
             // panel8
             // 
+            panel8.Controls.Add(label73);
             panel8.Controls.Add(label8);
             panel8.Controls.Add(label7);
             panel8.Controls.Add(pictureBox5);
-            panel8.Location = new Point(1019, 13);
+            panel8.Location = new Point(1442, 12);
             panel8.Name = "panel8";
             panel8.Size = new Size(212, 82);
             panel8.TabIndex = 10;
             panel8.Visible = false;
             // 
+            // label73
+            // 
+            label73.AutoSize = true;
+            label73.ForeColor = Color.Lime;
+            label73.Location = new Point(81, 9);
+            label73.Name = "label73";
+            label73.Size = new Size(64, 20);
+            label73.TabIndex = 7;
+            label73.Text = "daotuan";
+            // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(80, 44);
+            label8.Location = new Point(80, 55);
             label8.Name = "label8";
             label8.Size = new Size(77, 20);
             label8.TabIndex = 6;
@@ -672,7 +711,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(80, 18);
+            label7.Location = new Point(80, 32);
             label7.Name = "label7";
             label7.Size = new Size(127, 20);
             label7.TabIndex = 5;
@@ -694,17 +733,18 @@
             // panel9
             // 
             panel9.AutoScroll = true;
+            panel9.BackColor = Color.White;
+            panel9.BackgroundImageLayout = ImageLayout.Stretch;
             panel9.Controls.Add(tableLayoutPanel1);
-            panel9.Location = new Point(360, 111);
+            panel9.Location = new Point(309, 108);
             panel9.Name = "panel9";
-            panel9.Size = new Size(1542, 922);
+            panel9.Size = new Size(1609, 890);
             panel9.TabIndex = 11;
             // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.AutoScroll = true;
             tableLayoutPanel1.AutoSize = true;
-            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
             tableLayoutPanel1.ColumnCount = 5;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
@@ -731,15 +771,14 @@
             tableLayoutPanel1.Controls.Add(panel24, 2, 2);
             tableLayoutPanel1.Controls.Add(panel28, 4, 2);
             tableLayoutPanel1.Controls.Add(panel10, 0, 0);
-            tableLayoutPanel1.Location = new Point(6, 3);
+            tableLayoutPanel1.Location = new Point(58, 3);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(1496, 1231);
+            tableLayoutPanel1.Size = new Size(1472, 1210);
             tableLayoutPanel1.TabIndex = 5;
             tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
@@ -747,13 +786,25 @@
             // 
             panel17.AutoSize = true;
             panel17.BackColor = Color.White;
+            panel17.Controls.Add(label68);
             panel17.Controls.Add(label23);
             panel17.Controls.Add(label24);
             panel17.Controls.Add(pictureBox13);
-            panel17.Location = new Point(5, 926);
+            panel17.Location = new Point(3, 909);
             panel17.Name = "panel17";
-            panel17.Size = new Size(281, 288);
+            panel17.Size = new Size(281, 293);
             panel17.TabIndex = 21;
+            // 
+            // label68
+            // 
+            label68.AutoSize = true;
+            label68.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label68.ForeColor = Color.Blue;
+            label68.Location = new Point(23, 268);
+            label68.Name = "label68";
+            label68.Size = new Size(111, 25);
+            label68.TabIndex = 4;
+            label68.Text = "16.390.000₫";
             // 
             // label23
             // 
@@ -761,16 +812,16 @@
             label23.Name = "label23";
             label23.Size = new Size(258, 81);
             label23.TabIndex = 2;
-            label23.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label23.Text = "Laptop Dell Inspiron 3520 (i5-1235U/RAM 8GB/256GB SSD/ Windows 11 + Office)";
             // 
             // label24
             // 
             label24.AutoSize = true;
             label24.Location = new Point(20, 188);
             label24.Name = "label24";
-            label24.Size = new Size(45, 20);
+            label24.Size = new Size(36, 20);
             label24.TabIndex = 1;
-            label24.Text = "ASUS";
+            label24.Text = "Dell";
             // 
             // pictureBox13
             // 
@@ -786,13 +837,25 @@
             // 
             panel25.AutoSize = true;
             panel25.BackColor = Color.White;
+            panel25.Controls.Add(label66);
             panel25.Controls.Add(label39);
             panel25.Controls.Add(label40);
             panel25.Controls.Add(pictureBox21);
-            panel25.Location = new Point(899, 619);
+            panel25.Location = new Point(885, 607);
             panel25.Name = "panel25";
-            panel25.Size = new Size(281, 288);
+            panel25.Size = new Size(281, 294);
             panel25.TabIndex = 16;
+            // 
+            // label66
+            // 
+            label66.AutoSize = true;
+            label66.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label66.ForeColor = Color.Blue;
+            label66.Location = new Point(23, 269);
+            label66.Name = "label66";
+            label66.Size = new Size(111, 25);
+            label66.TabIndex = 4;
+            label66.Text = "25.790.000₫";
             // 
             // label39
             // 
@@ -800,16 +863,16 @@
             label39.Name = "label39";
             label39.Size = new Size(258, 81);
             label39.TabIndex = 2;
-            label39.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label39.Text = "Laptop HP ProBook 440 G9 (i7-1255U/RAM 16GB/512GB SSD/ Windows 11)";
             // 
             // label40
             // 
             label40.AutoSize = true;
             label40.Location = new Point(20, 188);
             label40.Name = "label40";
-            label40.Size = new Size(45, 20);
+            label40.Size = new Size(28, 20);
             label40.TabIndex = 1;
-            label40.Text = "ASUS";
+            label40.Text = "HP";
             // 
             // pictureBox21
             // 
@@ -826,13 +889,25 @@
             // 
             panel27.AutoSize = true;
             panel27.BackColor = Color.White;
+            panel27.Controls.Add(label70);
             panel27.Controls.Add(label43);
             panel27.Controls.Add(label44);
             panel27.Controls.Add(pictureBox23);
-            panel27.Location = new Point(601, 926);
+            panel27.Location = new Point(591, 909);
             panel27.Name = "panel27";
-            panel27.Size = new Size(281, 282);
+            panel27.Size = new Size(281, 291);
             panel27.TabIndex = 18;
+            // 
+            // label70
+            // 
+            label70.AutoSize = true;
+            label70.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label70.ForeColor = Color.Blue;
+            label70.Location = new Point(23, 266);
+            label70.Name = "label70";
+            label70.Size = new Size(111, 25);
+            label70.TabIndex = 4;
+            label70.Text = "28.790.000₫";
             // 
             // label43
             // 
@@ -840,16 +915,16 @@
             label43.Name = "label43";
             label43.Size = new Size(258, 75);
             label43.TabIndex = 2;
-            label43.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label43.Text = "Laptop HP Envy X360 13-bf0090TU (76B13PA) (i7-1250U/RAM 16GB/512GB SSD/ Windows 11)";
             // 
             // label44
             // 
             label44.AutoSize = true;
             label44.Location = new Point(20, 188);
             label44.Name = "label44";
-            label44.Size = new Size(45, 20);
+            label44.Size = new Size(28, 20);
             label44.TabIndex = 1;
-            label44.Text = "ASUS";
+            label44.Text = "HP";
             // 
             // pictureBox23
             // 
@@ -865,13 +940,25 @@
             // 
             panel26.AutoSize = true;
             panel26.BackColor = Color.White;
+            panel26.Controls.Add(label69);
             panel26.Controls.Add(label41);
             panel26.Controls.Add(label42);
             panel26.Controls.Add(pictureBox22);
-            panel26.Location = new Point(303, 926);
+            panel26.Location = new Point(297, 909);
             panel26.Name = "panel26";
-            panel26.Size = new Size(281, 288);
+            panel26.Size = new Size(281, 293);
             panel26.TabIndex = 17;
+            // 
+            // label69
+            // 
+            label69.AutoSize = true;
+            label69.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label69.ForeColor = Color.Blue;
+            label69.Location = new Point(23, 268);
+            label69.Name = "label69";
+            label69.Size = new Size(111, 25);
+            label69.TabIndex = 4;
+            label69.Text = "13.590.000₫";
             // 
             // label41
             // 
@@ -879,16 +966,16 @@
             label41.Name = "label41";
             label41.Size = new Size(258, 81);
             label41.TabIndex = 2;
-            label41.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label41.Text = "Laptop MSI Modern 15 A11M (i5-1155G7/RAM 8GB/512GB SSD/ Windows 11)\r\n";
             // 
             // label42
             // 
             label42.AutoSize = true;
             label42.Location = new Point(20, 188);
             label42.Name = "label42";
-            label42.Size = new Size(45, 20);
+            label42.Size = new Size(34, 20);
             label42.TabIndex = 1;
-            label42.Text = "ASUS";
+            label42.Text = "MSI";
             // 
             // pictureBox22
             // 
@@ -904,13 +991,25 @@
             // 
             panel21.AutoSize = true;
             panel21.BackColor = Color.White;
+            panel21.Controls.Add(label72);
             panel21.Controls.Add(label31);
             panel21.Controls.Add(label32);
             panel21.Controls.Add(pictureBox17);
-            panel21.Location = new Point(1197, 926);
+            panel21.Location = new Point(1179, 909);
             panel21.Name = "panel21";
-            panel21.Size = new Size(281, 288);
+            panel21.Size = new Size(281, 294);
             panel21.TabIndex = 12;
+            // 
+            // label72
+            // 
+            label72.AutoSize = true;
+            label72.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label72.ForeColor = Color.Blue;
+            label72.Location = new Point(23, 269);
+            label72.Name = "label72";
+            label72.Size = new Size(101, 25);
+            label72.TabIndex = 4;
+            label72.Text = "9.790.000₫";
             // 
             // label31
             // 
@@ -918,7 +1017,7 @@
             label31.Name = "label31";
             label31.Size = new Size(258, 81);
             label31.TabIndex = 2;
-            label31.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label31.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD...\r\n";
             // 
             // label32
             // 
@@ -943,13 +1042,25 @@
             // 
             panel18.AutoSize = true;
             panel18.BackColor = Color.White;
+            panel18.Controls.Add(label51);
             panel18.Controls.Add(label25);
             panel18.Controls.Add(label26);
             panel18.Controls.Add(pictureBox14);
-            panel18.Location = new Point(601, 5);
+            panel18.Location = new Point(591, 3);
             panel18.Name = "panel18";
-            panel18.Size = new Size(281, 288);
+            panel18.Size = new Size(281, 292);
             panel18.TabIndex = 9;
+            // 
+            // label51
+            // 
+            label51.AutoSize = true;
+            label51.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label51.ForeColor = Color.Blue;
+            label51.Location = new Point(23, 267);
+            label51.Name = "label51";
+            label51.Size = new Size(111, 25);
+            label51.TabIndex = 4;
+            label51.Text = "21.990.000₫";
             // 
             // label25
             // 
@@ -957,7 +1068,7 @@
             label25.Name = "label25";
             label25.Size = new Size(258, 81);
             label25.TabIndex = 2;
-            label25.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label25.Text = "Laptop ASUS Gaming ROG Strix G513IE-HN246W (Ryzen 7 4800H/RAM 8GB/512GB SSD/...\r\n\r\n\r\n\r\n";
             // 
             // label26
             // 
@@ -982,13 +1093,25 @@
             // 
             panel15.AutoSize = true;
             panel15.BackColor = Color.White;
+            panel15.Controls.Add(label59);
             panel15.Controls.Add(label19);
             panel15.Controls.Add(label20);
             panel15.Controls.Add(pictureBox11);
-            panel15.Location = new Point(303, 312);
+            panel15.Location = new Point(297, 305);
             panel15.Name = "panel15";
-            panel15.Size = new Size(281, 282);
+            panel15.Size = new Size(281, 293);
             panel15.TabIndex = 6;
+            // 
+            // label59
+            // 
+            label59.AutoSize = true;
+            label59.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label59.ForeColor = Color.Blue;
+            label59.Location = new Point(20, 268);
+            label59.Name = "label59";
+            label59.Size = new Size(111, 25);
+            label59.TabIndex = 4;
+            label59.Text = "21.690.000₫";
             // 
             // label19
             // 
@@ -996,16 +1119,16 @@
             label19.Name = "label19";
             label19.Size = new Size(258, 75);
             label19.TabIndex = 2;
-            label19.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label19.Text = "Laptop HP Victus 16-e1107AX (Ryzen 5 6600H/RAM 8GB/512GB SSD/ Windows 11)";
             // 
             // label20
             // 
             label20.AutoSize = true;
             label20.Location = new Point(20, 188);
             label20.Name = "label20";
-            label20.Size = new Size(45, 20);
+            label20.Size = new Size(28, 20);
             label20.TabIndex = 1;
-            label20.Text = "ASUS";
+            label20.Text = "HP";
             // 
             // pictureBox11
             // 
@@ -1016,18 +1139,32 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 0;
             pictureBox11.TabStop = false;
+            pictureBox11.MouseEnter += pictureBox11_MouseEnter;
+            pictureBox11.MouseLeave += pictureBox11_MouseLeave;
             // 
             // panel11
             // 
             panel11.AutoSize = true;
             panel11.BackColor = Color.White;
+            panel11.Controls.Add(label58);
             panel11.Controls.Add(label11);
             panel11.Controls.Add(label12);
             panel11.Controls.Add(pictureBox7);
-            panel11.Location = new Point(5, 312);
+            panel11.Location = new Point(3, 305);
             panel11.Name = "panel11";
-            panel11.Size = new Size(281, 282);
+            panel11.Size = new Size(281, 293);
             panel11.TabIndex = 2;
+            // 
+            // label58
+            // 
+            label58.AutoSize = true;
+            label58.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label58.ForeColor = Color.Blue;
+            label58.Location = new Point(20, 268);
+            label58.Name = "label58";
+            label58.Size = new Size(111, 25);
+            label58.TabIndex = 4;
+            label58.Text = "23.990.000₫";
             // 
             // label11
             // 
@@ -1035,16 +1172,16 @@
             label11.Name = "label11";
             label11.Size = new Size(258, 75);
             label11.TabIndex = 2;
-            label11.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label11.Text = "Laptop HP Envy x360 13-bf0096TU (i5-1230U/RAM 8GB/512GB SSD/ Windows 11)";
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Location = new Point(20, 188);
             label12.Name = "label12";
-            label12.Size = new Size(45, 20);
+            label12.Size = new Size(28, 20);
             label12.TabIndex = 1;
-            label12.Text = "ASUS";
+            label12.Text = "HP";
             // 
             // pictureBox7
             // 
@@ -1055,18 +1192,32 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 0;
             pictureBox7.TabStop = false;
+            pictureBox7.MouseEnter += pictureBox7_MouseEnter;
+            pictureBox7.MouseLeave += pictureBox7_MouseLeave;
             // 
             // panel12
             // 
             panel12.AutoSize = true;
             panel12.BackColor = Color.White;
+            panel12.Controls.Add(label63);
             panel12.Controls.Add(label13);
             panel12.Controls.Add(label14);
             panel12.Controls.Add(pictureBox8);
-            panel12.Location = new Point(5, 619);
+            panel12.Location = new Point(3, 607);
             panel12.Name = "panel12";
-            panel12.Size = new Size(281, 282);
+            panel12.Size = new Size(281, 292);
             panel12.TabIndex = 3;
+            // 
+            // label63
+            // 
+            label63.AutoSize = true;
+            label63.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label63.ForeColor = Color.Blue;
+            label63.Location = new Point(23, 267);
+            label63.Name = "label63";
+            label63.Size = new Size(111, 25);
+            label63.TabIndex = 4;
+            label63.Text = "11.290.000₫";
             // 
             // label13
             // 
@@ -1074,16 +1225,16 @@
             label13.Name = "label13";
             label13.Size = new Size(258, 75);
             label13.TabIndex = 2;
-            label13.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label13.Text = "Laptop Lenovo IdeaPad 3 15IAU7 (i3-1215U/RAM 8GB/512GB SSD/ Windows 11)";
             // 
             // label14
             // 
             label14.AutoSize = true;
             label14.Location = new Point(20, 188);
             label14.Name = "label14";
-            label14.Size = new Size(45, 20);
+            label14.Size = new Size(57, 20);
             label14.TabIndex = 1;
-            label14.Text = "ASUS";
+            label14.Text = "Lenovo";
             // 
             // pictureBox8
             // 
@@ -1094,26 +1245,40 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
+            pictureBox8.MouseEnter += label8_MouseEnter;
+            pictureBox8.MouseLeave += label8_MouseLeave;
             // 
             // panel13
             // 
             panel13.AutoSize = true;
             panel13.BackColor = Color.White;
+            panel13.Controls.Add(label50);
             panel13.Controls.Add(label15);
             panel13.Controls.Add(label16);
             panel13.Controls.Add(pictureBox9);
-            panel13.Location = new Point(303, 5);
+            panel13.Location = new Point(297, 3);
             panel13.Name = "panel13";
-            panel13.Size = new Size(281, 288);
+            panel13.Size = new Size(286, 293);
             panel13.TabIndex = 4;
+            // 
+            // label50
+            // 
+            label50.AutoSize = true;
+            label50.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label50.ForeColor = Color.Blue;
+            label50.Location = new Point(23, 268);
+            label50.Name = "label50";
+            label50.Size = new Size(111, 25);
+            label50.TabIndex = 4;
+            label50.Text = "20.990.000₫";
             // 
             // label15
             // 
             label15.Location = new Point(20, 207);
             label15.Name = "label15";
-            label15.Size = new Size(258, 81);
+            label15.Size = new Size(263, 81);
             label15.TabIndex = 2;
-            label15.Text = "Laptop ASUS TUF Gaming FX506HC-HN144W (i5-11400H/RAM 8GB/RTX 3050/512GB SSD/ Windows 11)";
+            label15.Text = "Laptop ASUS TUF Gaming FX506HC-HN144W (i5-11400H/RAM 8GB/RTX 3050/512GB/ Windows...\r\n\r\n";
             // 
             // label16
             // 
@@ -1133,18 +1298,32 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
+            pictureBox9.MouseEnter += pictureBox9_MouseEnter;
+            pictureBox9.MouseLeave += pictureBox9_MouseLeave;
             // 
             // panel14
             // 
             panel14.AutoSize = true;
             panel14.BackColor = Color.White;
+            panel14.Controls.Add(label71);
             panel14.Controls.Add(label17);
             panel14.Controls.Add(label18);
             panel14.Controls.Add(pictureBox10);
-            panel14.Location = new Point(899, 926);
+            panel14.Location = new Point(885, 909);
             panel14.Name = "panel14";
-            panel14.Size = new Size(281, 282);
+            panel14.Size = new Size(281, 291);
             panel14.TabIndex = 5;
+            // 
+            // label71
+            // 
+            label71.AutoSize = true;
+            label71.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label71.ForeColor = Color.Blue;
+            label71.Location = new Point(23, 266);
+            label71.Name = "label71";
+            label71.Size = new Size(111, 25);
+            label71.TabIndex = 4;
+            label71.Text = "13.390.000₫";
             // 
             // label17
             // 
@@ -1152,7 +1331,7 @@
             label17.Name = "label17";
             label17.Size = new Size(258, 75);
             label17.TabIndex = 2;
-            label17.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label17.Text = "Laptop Asus Vivobook 16X M1603QA-MB123W";
             // 
             // label18
             // 
@@ -1178,20 +1357,32 @@
             panel20.AutoSize = true;
             panel20.BackColor = Color.White;
             panel20.Controls.Add(label29);
+            panel20.Controls.Add(label52);
             panel20.Controls.Add(label30);
             panel20.Controls.Add(pictureBox16);
-            panel20.Location = new Point(899, 5);
+            panel20.Location = new Point(885, 3);
             panel20.Name = "panel20";
-            panel20.Size = new Size(281, 288);
+            panel20.Size = new Size(281, 292);
             panel20.TabIndex = 11;
             // 
             // label29
             // 
             label29.Location = new Point(20, 207);
             label29.Name = "label29";
-            label29.Size = new Size(258, 81);
+            label29.Size = new Size(258, 60);
             label29.TabIndex = 2;
-            label29.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label29.Text = "Laptop ASUS UM5401QA-KN209W (Ryzen 5 5600H/RAM 8GB/512GB SSD/ Windows 11)\r\n";
+            // 
+            // label52
+            // 
+            label52.AutoSize = true;
+            label52.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label52.ForeColor = Color.Blue;
+            label52.Location = new Point(23, 267);
+            label52.Name = "label52";
+            label52.Size = new Size(111, 25);
+            label52.TabIndex = 4;
+            label52.Text = "19.990.000₫";
             // 
             // label30
             // 
@@ -1216,13 +1407,25 @@
             // 
             panel19.AutoSize = true;
             panel19.BackColor = Color.White;
+            panel19.Controls.Add(label60);
             panel19.Controls.Add(label27);
             panel19.Controls.Add(label28);
             panel19.Controls.Add(pictureBox15);
-            panel19.Location = new Point(601, 312);
+            panel19.Location = new Point(591, 305);
             panel19.Name = "panel19";
-            panel19.Size = new Size(281, 288);
+            panel19.Size = new Size(281, 293);
             panel19.TabIndex = 10;
+            // 
+            // label60
+            // 
+            label60.AutoSize = true;
+            label60.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label60.ForeColor = Color.Blue;
+            label60.Location = new Point(23, 268);
+            label60.Name = "label60";
+            label60.Size = new Size(111, 25);
+            label60.TabIndex = 4;
+            label60.Text = "23.990.000₫";
             // 
             // label27
             // 
@@ -1230,16 +1433,16 @@
             label27.Name = "label27";
             label27.Size = new Size(258, 81);
             label27.TabIndex = 2;
-            label27.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label27.Text = "Laptop ACER Nitro 5 AN515-58-52SP (i5-12500H/RAM 8GB/RTX 3050/512GB SSD/ Windows 11)";
             // 
             // label28
             // 
             label28.AutoSize = true;
             label28.Location = new Point(20, 188);
             label28.Name = "label28";
-            label28.Size = new Size(45, 20);
+            label28.Size = new Size(39, 20);
             label28.TabIndex = 1;
-            label28.Text = "ASUS";
+            label28.Text = "Acer";
             // 
             // pictureBox15
             // 
@@ -1255,13 +1458,25 @@
             // 
             panel22.AutoSize = true;
             panel22.BackColor = Color.White;
+            panel22.Controls.Add(label61);
             panel22.Controls.Add(label33);
             panel22.Controls.Add(label34);
             panel22.Controls.Add(pictureBox18);
-            panel22.Location = new Point(899, 312);
+            panel22.Location = new Point(885, 305);
             panel22.Name = "panel22";
-            panel22.Size = new Size(281, 288);
+            panel22.Size = new Size(281, 293);
             panel22.TabIndex = 13;
+            // 
+            // label61
+            // 
+            label61.AutoSize = true;
+            label61.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label61.ForeColor = Color.Blue;
+            label61.Location = new Point(20, 268);
+            label61.Name = "label61";
+            label61.Size = new Size(111, 25);
+            label61.TabIndex = 4;
+            label61.Text = "14.790.000₫";
             // 
             // label33
             // 
@@ -1269,21 +1484,21 @@
             label33.Name = "label33";
             label33.Size = new Size(258, 81);
             label33.TabIndex = 2;
-            label33.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label33.Text = "Laptop ACER Aspire 5 A514-54-5127 (i5-1135G7/RAM 8GB/512GB SSD/ Windows 11)";
             // 
             // label34
             // 
             label34.AutoSize = true;
             label34.Location = new Point(20, 188);
             label34.Name = "label34";
-            label34.Size = new Size(45, 20);
+            label34.Size = new Size(39, 20);
             label34.TabIndex = 1;
-            label34.Text = "ASUS";
+            label34.Text = "Acer";
             // 
             // pictureBox18
             // 
             pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
-            pictureBox18.Location = new Point(20, 22);
+            pictureBox18.Location = new Point(20, 7);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(243, 182);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1294,13 +1509,25 @@
             // 
             panel29.AutoSize = true;
             panel29.BackColor = Color.White;
+            panel29.Controls.Add(label57);
             panel29.Controls.Add(label47);
             panel29.Controls.Add(label48);
             panel29.Controls.Add(pictureBox25);
-            panel29.Location = new Point(1197, 5);
+            panel29.Location = new Point(1179, 3);
             panel29.Name = "panel29";
-            panel29.Size = new Size(281, 288);
+            panel29.Size = new Size(281, 293);
             panel29.TabIndex = 20;
+            // 
+            // label57
+            // 
+            label57.AutoSize = true;
+            label57.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label57.ForeColor = Color.Blue;
+            label57.Location = new Point(20, 268);
+            label57.Name = "label57";
+            label57.Size = new Size(111, 25);
+            label57.TabIndex = 5;
+            label57.Text = "18.490.000₫";
             // 
             // label47
             // 
@@ -1308,16 +1535,16 @@
             label47.Name = "label47";
             label47.Size = new Size(258, 81);
             label47.TabIndex = 2;
-            label47.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label47.Text = "Laptop HP Pavilion X360 14-ek \r\n0059TU (i3-1215U/RAM 8GB/256GB SSD/ Windows 11)\r\n";
             // 
             // label48
             // 
             label48.AutoSize = true;
             label48.Location = new Point(20, 188);
             label48.Name = "label48";
-            label48.Size = new Size(45, 20);
+            label48.Size = new Size(28, 20);
             label48.TabIndex = 1;
-            label48.Text = "ASUS";
+            label48.Text = "HP";
             // 
             // pictureBox25
             // 
@@ -1333,13 +1560,25 @@
             // 
             panel16.AutoSize = true;
             panel16.BackColor = Color.White;
+            panel16.Controls.Add(label62);
             panel16.Controls.Add(label21);
             panel16.Controls.Add(label22);
             panel16.Controls.Add(pictureBox12);
-            panel16.Location = new Point(1197, 312);
+            panel16.Location = new Point(1179, 305);
             panel16.Name = "panel16";
-            panel16.Size = new Size(281, 282);
+            panel16.Size = new Size(281, 292);
             panel16.TabIndex = 7;
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label62.ForeColor = Color.Blue;
+            label62.Location = new Point(21, 267);
+            label62.Name = "label62";
+            label62.Size = new Size(111, 25);
+            label62.TabIndex = 4;
+            label62.Text = "16.490.000₫";
             // 
             // label21
             // 
@@ -1347,16 +1586,16 @@
             label21.Name = "label21";
             label21.Size = new Size(258, 75);
             label21.TabIndex = 2;
-            label21.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
+            label21.Text = "Laptop ACER Aspire 5 A514-55-5954 (i5-1235U/RAM 8GB/512GB SSD/ Windows 11)";
             // 
             // label22
             // 
             label22.AutoSize = true;
             label22.Location = new Point(20, 188);
             label22.Name = "label22";
-            label22.Size = new Size(45, 20);
+            label22.Size = new Size(39, 20);
             label22.TabIndex = 1;
-            label22.Text = "ASUS";
+            label22.Text = "Acer";
             // 
             // pictureBox12
             // 
@@ -1372,13 +1611,25 @@
             // 
             panel23.AutoSize = true;
             panel23.BackColor = Color.White;
+            panel23.Controls.Add(label64);
             panel23.Controls.Add(label35);
             panel23.Controls.Add(label36);
             panel23.Controls.Add(pictureBox19);
-            panel23.Location = new Point(303, 619);
+            panel23.Location = new Point(297, 607);
             panel23.Name = "panel23";
-            panel23.Size = new Size(281, 288);
+            panel23.Size = new Size(281, 294);
             panel23.TabIndex = 14;
+            // 
+            // label64
+            // 
+            label64.AutoSize = true;
+            label64.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label64.ForeColor = Color.Blue;
+            label64.Location = new Point(20, 269);
+            label64.Name = "label64";
+            label64.Size = new Size(111, 25);
+            label64.TabIndex = 4;
+            label64.Text = "16.490.000₫";
             // 
             // label35
             // 
@@ -1386,16 +1637,16 @@
             label35.Name = "label35";
             label35.Size = new Size(258, 81);
             label35.TabIndex = 2;
-            label35.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label35.Text = "Laptop MSI Gaming GF63 Thin 11SC (i5-11400H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
             // 
             // label36
             // 
             label36.AutoSize = true;
             label36.Location = new Point(20, 188);
             label36.Name = "label36";
-            label36.Size = new Size(45, 20);
+            label36.Size = new Size(34, 20);
             label36.TabIndex = 1;
-            label36.Text = "ASUS";
+            label36.Text = "MSI";
             // 
             // pictureBox19
             // 
@@ -1411,13 +1662,25 @@
             // 
             panel24.AutoSize = true;
             panel24.BackColor = Color.White;
+            panel24.Controls.Add(label65);
             panel24.Controls.Add(label37);
             panel24.Controls.Add(label38);
             panel24.Controls.Add(pictureBox20);
-            panel24.Location = new Point(601, 619);
+            panel24.Location = new Point(591, 607);
             panel24.Name = "panel24";
-            panel24.Size = new Size(281, 288);
+            panel24.Size = new Size(281, 294);
             panel24.TabIndex = 15;
+            // 
+            // label65
+            // 
+            label65.AutoSize = true;
+            label65.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label65.ForeColor = Color.Blue;
+            label65.Location = new Point(23, 269);
+            label65.Name = "label65";
+            label65.Size = new Size(111, 25);
+            label65.TabIndex = 4;
+            label65.Text = "19.390.000₫";
             // 
             // label37
             // 
@@ -1425,16 +1688,16 @@
             label37.Name = "label37";
             label37.Size = new Size(258, 81);
             label37.TabIndex = 2;
-            label37.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label37.Text = "Laptop HP Pavilion 15-eg2037TX (i5-1235U/RAM 8GB/256GB SSD/ Windows 11)";
             // 
             // label38
             // 
             label38.AutoSize = true;
             label38.Location = new Point(20, 188);
             label38.Name = "label38";
-            label38.Size = new Size(45, 20);
+            label38.Size = new Size(28, 20);
             label38.TabIndex = 1;
-            label38.Text = "ASUS";
+            label38.Text = "HP";
             // 
             // pictureBox20
             // 
@@ -1450,13 +1713,25 @@
             // 
             panel28.AutoSize = true;
             panel28.BackColor = Color.White;
+            panel28.Controls.Add(label67);
             panel28.Controls.Add(label45);
             panel28.Controls.Add(label46);
             panel28.Controls.Add(pictureBox24);
-            panel28.Location = new Point(1197, 619);
+            panel28.Location = new Point(1179, 607);
             panel28.Name = "panel28";
-            panel28.Size = new Size(281, 288);
+            panel28.Size = new Size(281, 293);
             panel28.TabIndex = 19;
+            // 
+            // label67
+            // 
+            label67.AutoSize = true;
+            label67.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label67.ForeColor = Color.Blue;
+            label67.Location = new Point(23, 268);
+            label67.Name = "label67";
+            label67.Size = new Size(111, 25);
+            label67.TabIndex = 4;
+            label67.Text = "27.790.000₫";
             // 
             // label45
             // 
@@ -1464,7 +1739,7 @@
             label45.Name = "label45";
             label45.Size = new Size(258, 81);
             label45.TabIndex = 2;
-            label45.Text = "Laptop ASUS Gaming ROG Strix G15 G513IH-HN015W (Ryzen 7 4800H/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)";
+            label45.Text = "Laptop Asus Zenbook 14 OLED UX3402Z UX3402ZA-KM221W (14inch 90Hz/Intel Core i7...\r\n\r\n";
             // 
             // label46
             // 
@@ -1488,20 +1763,32 @@
             // panel10
             // 
             panel10.AutoSize = true;
-            panel10.BackColor = Color.White;
+            panel10.BackColor = Color.Transparent;
+            panel10.Controls.Add(label49);
             panel10.Controls.Add(label10);
             panel10.Controls.Add(label9);
             panel10.Controls.Add(pictureBox6);
-            panel10.Location = new Point(5, 5);
+            panel10.Location = new Point(3, 3);
             panel10.Name = "panel10";
-            panel10.Size = new Size(281, 282);
+            panel10.Size = new Size(281, 294);
             panel10.TabIndex = 1;
+            // 
+            // label49
+            // 
+            label49.AutoSize = true;
+            label49.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label49.ForeColor = Color.Blue;
+            label49.Location = new Point(23, 269);
+            label49.Name = "label49";
+            label49.Size = new Size(101, 25);
+            label49.TabIndex = 3;
+            label49.Text = "9.790.000₫";
             // 
             // label10
             // 
             label10.Location = new Point(20, 207);
             label10.Name = "label10";
-            label10.Size = new Size(258, 75);
+            label10.Size = new Size(258, 66);
             label10.TabIndex = 2;
             label10.Text = "Laptop ASUS Vivobook X515EA-BQ2351W (i3-1115G4/RAM 4GB/512GB SSD/ Windows 11)";
             // 
@@ -1529,22 +1816,63 @@
             // 
             // panel30
             // 
+            panel30.BackColor = Color.Transparent;
+            panel30.BackgroundImage = (Image)resources.GetObject("panel30.BackgroundImage");
+            panel30.Controls.Add(pictureBox26);
             panel30.Controls.Add(panel8);
             panel30.Controls.Add(pictureBox4);
             panel30.Controls.Add(pictureBox3);
             panel30.Controls.Add(panel7);
             panel30.Controls.Add(panel6);
             panel30.Dock = DockStyle.Top;
-            panel30.Location = new Point(360, 0);
+            panel30.Location = new Point(0, 0);
             panel30.Name = "panel30";
-            panel30.Size = new Size(1542, 103);
+            panel30.Size = new Size(1902, 103);
             panel30.TabIndex = 12;
+            // 
+            // pictureBox26
+            // 
+            pictureBox26.Image = (Image)resources.GetObject("pictureBox26.Image");
+            pictureBox26.Location = new Point(140, 0);
+            pictureBox26.Name = "pictureBox26";
+            pictureBox26.Size = new Size(176, 103);
+            pictureBox26.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox26.TabIndex = 11;
+            pictureBox26.TabStop = false;
+            // 
+            // label53
+            // 
+            label53.Location = new Point(0, 0);
+            label53.Name = "label53";
+            label53.Size = new Size(100, 23);
+            label53.TabIndex = 0;
+            // 
+            // label54
+            // 
+            label54.Location = new Point(0, 0);
+            label54.Name = "label54";
+            label54.Size = new Size(100, 23);
+            label54.TabIndex = 0;
+            // 
+            // label55
+            // 
+            label55.Location = new Point(0, 0);
+            label55.Name = "label55";
+            label55.Size = new Size(100, 23);
+            label55.TabIndex = 0;
+            // 
+            // label56
+            // 
+            label56.Location = new Point(0, 0);
+            label56.Name = "label56";
+            label56.Size = new Size(100, 23);
+            label56.TabIndex = 0;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1902, 1033);
+            ClientSize = new Size(1902, 913);
             Controls.Add(panel30);
             Controls.Add(panel9);
             Controls.Add(panel1);
@@ -1638,6 +1966,7 @@
             panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel30.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
             ResumeLayout(false);
         }
 
@@ -1768,5 +2097,31 @@
         private Label label24;
         private PictureBox pictureBox13;
         private Panel panel30;
+        private Label label51;
+        private Label label50;
+        private Label label49;
+        private Label label52;
+        private Label label53;
+        private Label label54;
+        private Label label55;
+        private Label label56;
+        private Label label68;
+        private Label label66;
+        private Label label70;
+        private Label label69;
+        private Label label72;
+        private Label label59;
+        private Label label58;
+        private Label label63;
+        private Label label71;
+        private Label label60;
+        private Label label61;
+        private Label label57;
+        private Label label62;
+        private Label label64;
+        private Label label65;
+        private Label label67;
+        private Label label73;
+        private PictureBox pictureBox26;
     }
 }

@@ -1,0 +1,75 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Asus Vivobook X515EA-BQ2351W là một trong những dòng laptop được nhiều sinh viên ưa chuộng. Với giá thành không quá cao, chiếc laptop này nhanh chóng được săn đón với thiết kế hiện đại và hiệu năng ổn định, cho bạn một trải nghiệm thú vị. </value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Laptop Asus Vivobook có vẻ ngoài vô cùng bắt mắt với kiểu dáng gọn nhẹ, thanh lịch, màn hình được  thiết kế viền siêu mỏng và màu xám toát lên vẻ mạnh mẽ và hiện đại. Phần viền màn hình vẫn là một màu đen quen thuộc và logo ASUS tạo điểm nhấn. 
+Ấn tượng hơn nữa khi mà chiếc ASUS VivoBook X515EA này có kích thước 36 x 23.5 x 1.99 cm cùng trọng lượng chỉ 1.8kg, rất nhẹ dù đây chỉ là một chiếc laptop 15,6 inch. Phía trên màn hình cũng được trang bị một chiếc VGA webcam tiện lợi cho việc học trực tuyến, họp online của người dùng.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Laptop Asus X515EA-BQ2351W được trang bị màn hình 15.6 inch có độ phân giải là 1920 x 1080 pixels (Full HD). Tấm nền IPS của chiếc máy tính này cũng cho khả năng hiển thị hình ảnh được sắc nét hơn những màn hình thường với dải màu rộng, giảm được ánh sáng xanh, tăng cường các chi tiết trong mọi điều kiện ánh sáng. 
+Thêm vào đó, em laptop này cũng sở hữu màn hình chống lóa giúp màn hình không bị chói sáng, bị bóng gương kể cả trong các điều kiện ánh sáng gắt. Cùng với đó, màn hình này cũng giúp người dùng tránh mỏi mắt khi sử dụng trong một thời gian dài, phù hợp với dân văn phòng hay sinh viên phải dùng máy thường xuyên.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Asus Vivobook X515EA-BQ2351W có một cấu hình lý tưởng cho công việc văn phòng khi sức mạnh của máy không chỉ đến từ bộ vi xử lý Intel core i3-1115G4 ( 3.0 GHz - 4.10 GHz / 6MB / 2 nhân, 4 luồng) mà còn từ bộ nhớ RAM 1 x 4GB Onboard DDR4 (1 khe cắm) cho hiệu năng sử dụng cao. 
+Con chip này tiết kiệm pin khi được sản xuất trên tiến trình 10nm SuperFin tiên tiến. Trong khi đó RAM 4GB DDR4 on board cũng giúp người dùng vận hành máy được mượt mà và trơn tru hơn.</value>
+  </data>
+</root>

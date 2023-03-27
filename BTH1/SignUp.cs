@@ -87,5 +87,28 @@ namespace Baithuchanh1
         {
             this.Hide();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            //resize picture
+            pictureBox7.Image = Image.FromFile("C:\\Users\\tuan\\source\\repos\\BTH1\\BTH1\\Resources\\Signup.png");
+        }
+
+        private void pictureBox5_MouseEnter(object sender, EventArgs e)
+        {
+            // resize picture
+            pictureBox7.Image = Image.FromFile("C:\\Users\\tuan\\source\\repos\\BTH1\\BTH1\\Resources\\SignUp1.png");
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
