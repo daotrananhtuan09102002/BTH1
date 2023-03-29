@@ -31,18 +31,30 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cart));
             label1 = new Label();
             panel1 = new Panel();
+            panel9 = new Panel();
+            pictureBox23 = new PictureBox();
+            label54 = new Label();
+            pictureBox22 = new PictureBox();
+            label67 = new Label();
+            label66 = new Label();
+            panel6 = new Panel();
+            label64 = new Label();
+            label62 = new Label();
+            label63 = new Label();
+            label47 = new Label();
+            pictureBox12 = new PictureBox();
+            label45 = new Label();
+            label43 = new Label();
+            label42 = new Label();
+            label40 = new Label();
+            label24 = new Label();
             label61 = new Label();
             label60 = new Label();
             label59 = new Label();
             panel7 = new Panel();
+            label53 = new Label();
             pictureBox26 = new PictureBox();
             label51 = new Label();
-            pictureBox27 = new PictureBox();
-            label52 = new Label();
-            pictureBox28 = new PictureBox();
-            pictureBox29 = new PictureBox();
-            label53 = new Label();
-            label54 = new Label();
             label55 = new Label();
             numericupdown6 = new numericupdown();
             label56 = new Label();
@@ -51,6 +63,7 @@
             pictureBox30 = new PictureBox();
             checkBox6 = new CheckBox();
             panel5 = new Panel();
+            label52 = new Label();
             pictureBox16 = new PictureBox();
             label32 = new Label();
             pictureBox17 = new PictureBox();
@@ -67,10 +80,9 @@
             pictureBox20 = new PictureBox();
             checkBox4 = new CheckBox();
             panel4 = new Panel();
+            label50 = new Label();
             pictureBox11 = new PictureBox();
             label23 = new Label();
-            pictureBox12 = new PictureBox();
-            label24 = new Label();
             pictureBox13 = new PictureBox();
             pictureBox14 = new PictureBox();
             label26 = new Label();
@@ -83,6 +95,7 @@
             pictureBox15 = new PictureBox();
             checkBox3 = new CheckBox();
             panel3 = new Panel();
+            label49 = new Label();
             pictureBox4 = new PictureBox();
             label12 = new Label();
             pictureBox5 = new PictureBox();
@@ -100,6 +113,7 @@
             checkBox2 = new CheckBox();
             label15 = new Label();
             panel2 = new Panel();
+            label48 = new Label();
             pictureBox3 = new PictureBox();
             label11 = new Label();
             pictureBox2 = new PictureBox();
@@ -125,12 +139,15 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             label44 = new Label();
             label41 = new Label();
+            label65 = new Label();
             panel1.SuspendLayout();
+            panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
@@ -140,7 +157,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
@@ -163,10 +179,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(23, 9);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(23, 11);
             label1.Name = "label1";
-            label1.Size = new Size(129, 38);
+            label1.Size = new Size(145, 41);
             label1.TabIndex = 0;
             label1.Text = "Giỏ hàng";
             label1.Click += label1_Click;
@@ -178,6 +194,9 @@
             panel1.BackColor = Color.Transparent;
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Controls.Add(label65);
+            panel1.Controls.Add(panel9);
+            panel1.Controls.Add(panel6);
             panel1.Controls.Add(label61);
             panel1.Controls.Add(label60);
             panel1.Controls.Add(label59);
@@ -198,22 +217,203 @@
             panel1.Size = new Size(1902, 913);
             panel1.TabIndex = 2;
             // 
+            // panel9
+            // 
+            panel9.BackgroundImage = (Image)resources.GetObject("panel9.BackgroundImage");
+            panel9.BackgroundImageLayout = ImageLayout.Stretch;
+            panel9.Controls.Add(pictureBox23);
+            panel9.Controls.Add(label54);
+            panel9.Controls.Add(pictureBox22);
+            panel9.Controls.Add(label67);
+            panel9.Controls.Add(label66);
+            panel9.Location = new Point(1339, 85);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(475, 217);
+            panel9.TabIndex = 34;
+            // 
+            // pictureBox23
+            // 
+            pictureBox23.Image = (Image)resources.GetObject("pictureBox23.Image");
+            pictureBox23.Location = new Point(24, 141);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(34, 34);
+            pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox23.TabIndex = 36;
+            pictureBox23.TabStop = false;
+            // 
+            // label54
+            // 
+            label54.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label54.Location = new Point(64, 134);
+            label54.Name = "label54";
+            label54.Size = new Size(394, 59);
+            label54.TabIndex = 35;
+            label54.Text = "1x Phiếu giảm giá 20%, tối đa 5 triệu cho hoá đơn từ 50 triệu trở lên ";
+            // 
+            // pictureBox22
+            // 
+            pictureBox22.Image = (Image)resources.GetObject("pictureBox22.Image");
+            pictureBox22.Location = new Point(24, 73);
+            pictureBox22.Name = "pictureBox22";
+            pictureBox22.Size = new Size(34, 34);
+            pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox22.TabIndex = 34;
+            pictureBox22.TabStop = false;
+            // 
+            // label67
+            // 
+            label67.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label67.Location = new Point(64, 66);
+            label67.Name = "label67";
+            label67.Size = new Size(394, 59);
+            label67.TabIndex = 33;
+            label67.Text = "1x Phiếu mua hàng 5 triệu cho hoá đơn từ 50 triệu trở lên";
+            // 
+            // label66
+            // 
+            label66.AutoSize = true;
+            label66.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label66.Location = new Point(21, 17);
+            label66.Name = "label66";
+            label66.Size = new Size(141, 31);
+            label66.TabIndex = 0;
+            label66.Text = "Khuyến mãi";
+            // 
+            // panel6
+            // 
+            panel6.BackgroundImage = (Image)resources.GetObject("panel6.BackgroundImage");
+            panel6.BackgroundImageLayout = ImageLayout.Stretch;
+            panel6.Controls.Add(label64);
+            panel6.Controls.Add(label62);
+            panel6.Controls.Add(label63);
+            panel6.Controls.Add(label47);
+            panel6.Controls.Add(pictureBox12);
+            panel6.Controls.Add(label45);
+            panel6.Controls.Add(label43);
+            panel6.Controls.Add(label42);
+            panel6.Controls.Add(label40);
+            panel6.Controls.Add(label24);
+            panel6.Location = new Point(1339, 400);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(475, 276);
+            panel6.TabIndex = 33;
+            // 
+            // label64
+            // 
+            label64.BorderStyle = BorderStyle.FixedSingle;
+            label64.Location = new Point(12, 140);
+            label64.Margin = new Padding(4, 0, 4, 0);
+            label64.Name = "label64";
+            label64.Size = new Size(450, 1);
+            label64.TabIndex = 35;
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label62.Location = new Point(322, 93);
+            label62.Name = "label62";
+            label62.Size = new Size(119, 28);
+            label62.TabIndex = 8;
+            label62.Text = "5.000.000đ";
+            // 
+            // label63
+            // 
+            label63.AutoSize = true;
+            label63.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label63.Location = new Point(22, 94);
+            label63.Name = "label63";
+            label63.Size = new Size(114, 28);
+            label63.TabIndex = 7;
+            label63.Text = "Khuyến mãi";
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label47.Location = new Point(303, 171);
+            label47.Name = "label47";
+            label47.Size = new Size(155, 20);
+            label47.TabIndex = 6;
+            label47.Text = "Đã bao gồm thuế VAT";
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(50, 204);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(378, 58);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 5;
+            pictureBox12.TabStop = false;
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label45.ForeColor = Color.RoyalBlue;
+            label45.Location = new Point(320, 141);
+            label45.Name = "label45";
+            label45.Size = new Size(131, 28);
+            label45.TabIndex = 4;
+            label45.Text = "87.150.000đ";
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label43.Location = new Point(322, 55);
+            label43.Name = "label43";
+            label43.Size = new Size(131, 28);
+            label43.TabIndex = 3;
+            label43.Text = "92.150.000đ";
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label42.Location = new Point(24, 141);
+            label42.Name = "label42";
+            label42.Size = new Size(103, 28);
+            label42.TabIndex = 2;
+            label42.Text = "Thành tiền";
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label40.Location = new Point(21, 58);
+            label40.Name = "label40";
+            label40.Size = new Size(135, 28);
+            label40.TabIndex = 1;
+            label40.Text = "Tổng tạm tính";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label24.Location = new Point(19, 19);
+            label24.Name = "label24";
+            label24.Size = new Size(136, 31);
+            label24.TabIndex = 0;
+            label24.Text = "Thanh toán";
+            // 
             // label61
             // 
             label61.BorderStyle = BorderStyle.FixedSingle;
             label61.Location = new Point(13, 1393);
             label61.Margin = new Padding(4, 0, 4, 0);
             label61.Name = "label61";
-            label61.Size = new Size(1010, 1);
+            label61.Size = new Size(1200, 1);
             label61.TabIndex = 32;
             // 
             // label60
             // 
             label60.BorderStyle = BorderStyle.FixedSingle;
-            label60.Location = new Point(10, 1080);
+            label60.Location = new Point(10, 1076);
             label60.Margin = new Padding(4, 0, 4, 0);
             label60.Name = "label60";
-            label60.Size = new Size(1010, 1);
+            label60.Size = new Size(1200, 1);
             label60.TabIndex = 31;
             // 
             // label59
@@ -222,19 +422,14 @@
             label59.Location = new Point(11, 764);
             label59.Margin = new Padding(4, 0, 4, 0);
             label59.Name = "label59";
-            label59.Size = new Size(1010, 1);
+            label59.Size = new Size(1200, 1);
             label59.TabIndex = 30;
             // 
             // panel7
             // 
+            panel7.Controls.Add(label53);
             panel7.Controls.Add(pictureBox26);
             panel7.Controls.Add(label51);
-            panel7.Controls.Add(pictureBox27);
-            panel7.Controls.Add(label52);
-            panel7.Controls.Add(pictureBox28);
-            panel7.Controls.Add(pictureBox29);
-            panel7.Controls.Add(label53);
-            panel7.Controls.Add(label54);
             panel7.Controls.Add(label55);
             panel7.Controls.Add(numericupdown6);
             panel7.Controls.Add(label56);
@@ -244,13 +439,24 @@
             panel7.Controls.Add(checkBox6);
             panel7.Location = new Point(12, 1406);
             panel7.Name = "panel7";
-            panel7.Size = new Size(1006, 193);
+            panel7.Size = new Size(1201, 203);
             panel7.TabIndex = 29;
+            // 
+            // label53
+            // 
+            label53.AutoSize = true;
+            label53.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label53.ForeColor = Color.Red;
+            label53.Location = new Point(838, 83);
+            label53.Name = "label53";
+            label53.Size = new Size(149, 23);
+            label53.TabIndex = 39;
+            label53.Text = "Xoá khỏi giỏ hàng";
             // 
             // pictureBox26
             // 
             pictureBox26.Image = (Image)resources.GetObject("pictureBox26.Image");
-            pictureBox26.Location = new Point(122, 253);
+            pictureBox26.Location = new Point(122, 110);
             pictureBox26.Name = "pictureBox26";
             pictureBox26.Size = new Size(34, 34);
             pictureBox26.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -260,85 +466,28 @@
             // label51
             // 
             label51.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label51.Location = new Point(162, 253);
+            label51.Location = new Point(162, 110);
             label51.Name = "label51";
             label51.Size = new Size(549, 39);
             label51.TabIndex = 35;
-            label51.Text = "Giảm 4.200.000₫ (áp dụng vào giá sản phẩm)";
-            // 
-            // pictureBox27
-            // 
-            pictureBox27.Image = (Image)resources.GetObject("pictureBox27.Image");
-            pictureBox27.Location = new Point(122, 209);
-            pictureBox27.Name = "pictureBox27";
-            pictureBox27.Size = new Size(34, 34);
-            pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox27.TabIndex = 34;
-            pictureBox27.TabStop = false;
-            // 
-            // label52
-            // 
-            label52.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label52.Location = new Point(162, 209);
-            label52.Name = "label52";
-            label52.Size = new Size(549, 39);
-            label52.TabIndex = 33;
-            label52.Text = "1x Chuột máy tính HP Z3700 Wireless (Quà tặng)";
-            // 
-            // pictureBox28
-            // 
-            pictureBox28.Image = (Image)resources.GetObject("pictureBox28.Image");
-            pictureBox28.Location = new Point(122, 163);
-            pictureBox28.Name = "pictureBox28";
-            pictureBox28.Size = new Size(34, 34);
-            pictureBox28.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox28.TabIndex = 32;
-            pictureBox28.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            pictureBox29.Image = (Image)resources.GetObject("pictureBox29.Image");
-            pictureBox29.Location = new Point(122, 109);
-            pictureBox29.Name = "pictureBox29";
-            pictureBox29.Size = new Size(34, 34);
-            pictureBox29.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox29.TabIndex = 31;
-            pictureBox29.TabStop = false;
-            // 
-            // label53
-            // 
-            label53.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label53.Location = new Point(162, 166);
-            label53.Name = "label53";
-            label53.Size = new Size(549, 44);
-            label53.TabIndex = 30;
-            label53.Text = "1x Túi đựng laptop 15''";
-            // 
-            // label54
-            // 
-            label54.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label54.Location = new Point(162, 109);
-            label54.Name = "label54";
-            label54.Size = new Size(549, 56);
-            label54.TabIndex = 29;
-            label54.Text = "1x Mã giảm on top 100K cho Chuột Logitech dòng M331 and M185 khi mua kèm Laptop văn phòng";
+            label51.Text = "Giảm 3.700.000₫ (áp dụng vào giá sản phẩm)";
             // 
             // label55
             // 
             label55.AutoSize = true;
-            label55.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label55.Location = new Point(903, 32);
+            label55.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label55.Location = new Point(1050, 35);
             label55.Name = "label55";
-            label55.Size = new Size(103, 25);
+            label55.Size = new Size(145, 31);
             label55.TabIndex = 12;
-            label55.Text = "9.790.000đ";
+            label55.Text = "23.990.000đ";
             // 
             // numericupdown6
             // 
             numericupdown6.AutoSize = true;
             numericupdown6.BackColor = Color.Transparent;
             numericupdown6.BackgroundImageLayout = ImageLayout.Stretch;
-            numericupdown6.Location = new Point(737, 9);
+            numericupdown6.Location = new Point(867, 12);
             numericupdown6.Name = "numericupdown6";
             numericupdown6.Size = new Size(99, 58);
             numericupdown6.TabIndex = 11;
@@ -347,21 +496,21 @@
             // 
             label56.AutoSize = true;
             label56.Font = new Font("Segoe UI", 9F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label56.Location = new Point(556, 46);
+            label56.Location = new Point(673, 46);
             label56.Name = "label56";
             label56.Size = new Size(88, 20);
             label56.TabIndex = 10;
-            label56.Text = "13.990.000đ";
+            label56.Text = "27.690.000đ";
             // 
             // label57
             // 
             label57.AutoSize = true;
-            label57.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label57.Location = new Point(541, 12);
+            label57.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point);
+            label57.Location = new Point(658, 12);
             label57.Name = "label57";
-            label57.Size = new Size(103, 25);
+            label57.Size = new Size(145, 31);
             label57.TabIndex = 9;
-            label57.Text = "9.790.000đ";
+            label57.Text = "23.990.000đ";
             // 
             // label58
             // 
@@ -369,9 +518,9 @@
             label58.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             label58.Location = new Point(163, 5);
             label58.Name = "label58";
-            label58.Size = new Size(362, 92);
+            label58.Size = new Size(472, 92);
             label58.TabIndex = 8;
-            label58.Text = "Máy tính xách tay/ Laptop Asus Vivobook X515EA-BQ2351W (i3-1115G4) (Xám)\r\nSKU: 220201805";
+            label58.Text = "Máy tính xách tay/ Laptop HP Envy x360 13-bf0096TU (76B16PA) (i5-1230U) (Xanh)\r\nSKU: 221003310";
             // 
             // pictureBox30
             // 
@@ -386,6 +535,8 @@
             // checkBox6
             // 
             checkBox6.AutoSize = true;
+            checkBox6.Checked = true;
+            checkBox6.CheckState = CheckState.Checked;
             checkBox6.Location = new Point(20, 39);
             checkBox6.Name = "checkBox6";
             checkBox6.Size = new Size(18, 17);
@@ -394,6 +545,7 @@
             // 
             // panel5
             // 
+            panel5.Controls.Add(label52);
             panel5.Controls.Add(pictureBox16);
             panel5.Controls.Add(label32);
             panel5.Controls.Add(pictureBox17);
@@ -411,8 +563,19 @@
             panel5.Controls.Add(checkBox4);
             panel5.Location = new Point(12, 1090);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1006, 304);
+            panel5.Size = new Size(1201, 304);
             panel5.TabIndex = 28;
+            // 
+            // label52
+            // 
+            label52.AutoSize = true;
+            label52.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label52.ForeColor = Color.Red;
+            label52.Location = new Point(838, 83);
+            label52.Name = "label52";
+            label52.Size = new Size(149, 23);
+            label52.TabIndex = 38;
+            label52.Text = "Xoá khỏi giỏ hàng";
             // 
             // pictureBox16
             // 
@@ -431,7 +594,7 @@
             label32.Name = "label32";
             label32.Size = new Size(549, 39);
             label32.TabIndex = 35;
-            label32.Text = "Giảm 4.200.000₫ (áp dụng vào giá sản phẩm)";
+            label32.Text = "Giảm 1.700.000₫ (áp dụng vào giá sản phẩm)";
             // 
             // pictureBox17
             // 
@@ -493,19 +656,19 @@
             // label36
             // 
             label36.AutoSize = true;
-            label36.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label36.Location = new Point(903, 32);
+            label36.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label36.Location = new Point(1050, 30);
             label36.Name = "label36";
-            label36.Size = new Size(103, 25);
+            label36.Size = new Size(145, 31);
             label36.TabIndex = 12;
-            label36.Text = "9.790.000đ";
+            label36.Text = "14.890.000đ";
             // 
             // numericupdown4
             // 
             numericupdown4.AutoSize = true;
             numericupdown4.BackColor = Color.Transparent;
             numericupdown4.BackgroundImageLayout = ImageLayout.Stretch;
-            numericupdown4.Location = new Point(737, 9);
+            numericupdown4.Location = new Point(867, 12);
             numericupdown4.Name = "numericupdown4";
             numericupdown4.Size = new Size(99, 58);
             numericupdown4.TabIndex = 11;
@@ -514,21 +677,21 @@
             // 
             label37.AutoSize = true;
             label37.Font = new Font("Segoe UI", 9F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label37.Location = new Point(556, 46);
+            label37.Location = new Point(673, 39);
             label37.Name = "label37";
             label37.Size = new Size(88, 20);
             label37.TabIndex = 10;
-            label37.Text = "13.990.000đ";
+            label37.Text = "16.590.000đ";
             // 
             // label38
             // 
             label38.AutoSize = true;
-            label38.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label38.Location = new Point(541, 12);
+            label38.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point);
+            label38.Location = new Point(658, 5);
             label38.Name = "label38";
-            label38.Size = new Size(103, 25);
+            label38.Size = new Size(145, 31);
             label38.TabIndex = 9;
-            label38.Text = "9.790.000đ";
+            label38.Text = "14.890.000đ";
             // 
             // label39
             // 
@@ -538,7 +701,7 @@
             label39.Name = "label39";
             label39.Size = new Size(362, 92);
             label39.TabIndex = 8;
-            label39.Text = "Máy tính xách tay/ Laptop Asus Vivobook X515EA-BQ2351W (i3-1115G4) (Xám)\r\nSKU: 220201805";
+            label39.Text = "Máy tính xách tay/ Laptop HP Pavilion X360 14-ek0059TU (6K7E1PA) (i3 1215U) (Xanh)\r\nSKU: 220610044";
             // 
             // pictureBox20
             // 
@@ -553,6 +716,8 @@
             // checkBox4
             // 
             checkBox4.AutoSize = true;
+            checkBox4.Checked = true;
+            checkBox4.CheckState = CheckState.Checked;
             checkBox4.Location = new Point(20, 39);
             checkBox4.Name = "checkBox4";
             checkBox4.Size = new Size(18, 17);
@@ -561,10 +726,9 @@
             // 
             // panel4
             // 
+            panel4.Controls.Add(label50);
             panel4.Controls.Add(pictureBox11);
             panel4.Controls.Add(label23);
-            panel4.Controls.Add(pictureBox12);
-            panel4.Controls.Add(label24);
             panel4.Controls.Add(pictureBox13);
             panel4.Controls.Add(pictureBox14);
             panel4.Controls.Add(label26);
@@ -578,13 +742,24 @@
             panel4.Controls.Add(checkBox3);
             panel4.Location = new Point(12, 777);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1006, 304);
+            panel4.Size = new Size(1201, 304);
             panel4.TabIndex = 27;
+            // 
+            // label50
+            // 
+            label50.AutoSize = true;
+            label50.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label50.ForeColor = Color.Red;
+            label50.Location = new Point(850, 81);
+            label50.Name = "label50";
+            label50.Size = new Size(149, 23);
+            label50.TabIndex = 38;
+            label50.Text = "Xoá khỏi giỏ hàng";
             // 
             // pictureBox11
             // 
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(122, 253);
+            pictureBox11.Location = new Point(122, 226);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(34, 34);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -594,35 +769,16 @@
             // label23
             // 
             label23.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label23.Location = new Point(162, 253);
+            label23.Location = new Point(162, 226);
             label23.Name = "label23";
             label23.Size = new Size(549, 39);
             label23.TabIndex = 35;
-            label23.Text = "Giảm 4.200.000₫ (áp dụng vào giá sản phẩm)";
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(122, 209);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(34, 34);
-            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox12.TabIndex = 34;
-            pictureBox12.TabStop = false;
-            // 
-            // label24
-            // 
-            label24.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.Location = new Point(162, 209);
-            label24.Name = "label24";
-            label24.Size = new Size(549, 39);
-            label24.TabIndex = 33;
-            label24.Text = "1x Chuột máy tính HP Z3700 Wireless (Quà tặng)";
+            label23.Text = "Giảm 4.500.000₫ (áp dụng vào giá sản phẩm)";
             // 
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(122, 163);
+            pictureBox13.Location = new Point(122, 172);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(34, 34);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -632,7 +788,7 @@
             // pictureBox14
             // 
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(122, 109);
+            pictureBox14.Location = new Point(122, 118);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(34, 34);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -642,37 +798,37 @@
             // label26
             // 
             label26.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label26.Location = new Point(162, 166);
+            label26.Location = new Point(162, 175);
             label26.Name = "label26";
             label26.Size = new Size(549, 44);
             label26.TabIndex = 30;
-            label26.Text = "1x Túi đựng laptop 15''";
+            label26.Text = "1x Mã giảm giá 300.000 mua Chuột gaming Fuhlen G90";
             // 
             // label27
             // 
             label27.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label27.Location = new Point(162, 109);
+            label27.Location = new Point(162, 118);
             label27.Name = "label27";
             label27.Size = new Size(549, 56);
             label27.TabIndex = 29;
-            label27.Text = "1x Mã giảm on top 100K cho Chuột Logitech dòng M331 and M185 khi mua kèm Laptop văn phòng";
+            label27.Text = "1x Mã ưu đãi giảm thêm 150k mua Chuột Logitech dòng G102 và G304";
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label28.Location = new Point(903, 32);
+            label28.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label28.Location = new Point(1050, 25);
             label28.Name = "label28";
-            label28.Size = new Size(103, 25);
+            label28.Size = new Size(145, 31);
             label28.TabIndex = 12;
-            label28.Text = "9.790.000đ";
+            label28.Text = "22.490.000đ";
             // 
             // numericupdown3
             // 
             numericupdown3.AutoSize = true;
             numericupdown3.BackColor = Color.Transparent;
             numericupdown3.BackgroundImageLayout = ImageLayout.Stretch;
-            numericupdown3.Location = new Point(737, 9);
+            numericupdown3.Location = new Point(867, 12);
             numericupdown3.Name = "numericupdown3";
             numericupdown3.Size = new Size(99, 58);
             numericupdown3.TabIndex = 11;
@@ -681,21 +837,21 @@
             // 
             label29.AutoSize = true;
             label29.Font = new Font("Segoe UI", 9F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label29.Location = new Point(556, 46);
+            label29.Location = new Point(683, 39);
             label29.Name = "label29";
             label29.Size = new Size(88, 20);
             label29.TabIndex = 10;
-            label29.Text = "13.990.000đ";
+            label29.Text = "26.990.000đ";
             // 
             // label30
             // 
             label30.AutoSize = true;
-            label30.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label30.Location = new Point(541, 12);
+            label30.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point);
+            label30.Location = new Point(668, 5);
             label30.Name = "label30";
-            label30.Size = new Size(103, 25);
+            label30.Size = new Size(145, 31);
             label30.TabIndex = 9;
-            label30.Text = "9.790.000đ";
+            label30.Text = "22.490.000đ";
             // 
             // label31
             // 
@@ -703,9 +859,9 @@
             label31.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             label31.Location = new Point(163, 5);
             label31.Name = "label31";
-            label31.Size = new Size(362, 92);
+            label31.Size = new Size(453, 104);
             label31.TabIndex = 8;
-            label31.Text = "Máy tính xách tay/ Laptop Asus Vivobook X515EA-BQ2351W (i3-1115G4) (Xám)\r\nSKU: 220201805";
+            label31.Text = "Laptop ASUS Gaming ROG Strix G513IE-HN246W (Ryzen 7 4800H/RAM 8GB/512GB SSD/ Windows 11)\r\nSKU: 220802898";
             // 
             // pictureBox15
             // 
@@ -720,6 +876,8 @@
             // checkBox3
             // 
             checkBox3.AutoSize = true;
+            checkBox3.Checked = true;
+            checkBox3.CheckState = CheckState.Checked;
             checkBox3.Location = new Point(20, 39);
             checkBox3.Name = "checkBox3";
             checkBox3.Size = new Size(18, 17);
@@ -728,6 +886,7 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(label49);
             panel3.Controls.Add(pictureBox4);
             panel3.Controls.Add(label12);
             panel3.Controls.Add(pictureBox5);
@@ -745,8 +904,19 @@
             panel3.Controls.Add(checkBox2);
             panel3.Location = new Point(12, 457);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1006, 304);
+            panel3.Size = new Size(1201, 304);
             panel3.TabIndex = 26;
+            // 
+            // label49
+            // 
+            label49.AutoSize = true;
+            label49.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label49.ForeColor = Color.Red;
+            label49.Location = new Point(838, 74);
+            label49.Name = "label49";
+            label49.Size = new Size(149, 23);
+            label49.TabIndex = 38;
+            label49.Text = "Xoá khỏi giỏ hàng";
             // 
             // pictureBox4
             // 
@@ -765,7 +935,7 @@
             label12.Name = "label12";
             label12.Size = new Size(549, 39);
             label12.TabIndex = 35;
-            label12.Text = "Giảm 1.700.000₫ (áp dụng vào giá sản phẩm)";
+            label12.Text = "Giảm 5.000.000₫ (áp dụng vào giá sản phẩm)";
             // 
             // pictureBox5
             // 
@@ -784,7 +954,7 @@
             label13.Name = "label13";
             label13.Size = new Size(549, 39);
             label13.TabIndex = 33;
-            label13.Text = "2x Chuột máy tính HP Z3700 Wireless (Quà tặng)";
+            label13.Text = "1x Chuột máy tính HP Z3700 Wireless (Quà tặng)";
             // 
             // pictureBox6
             // 
@@ -813,7 +983,7 @@
             label14.Name = "label14";
             label14.Size = new Size(549, 44);
             label14.TabIndex = 30;
-            label14.Text = "2x Túi đựng laptop 15''";
+            label14.Text = "1x Túi đựng laptop 15''";
             // 
             // label18
             // 
@@ -822,15 +992,15 @@
             label18.Name = "label18";
             label18.Size = new Size(549, 56);
             label18.TabIndex = 29;
-            label18.Text = "2x Mã giảm on top 100K cho Chuột Logitech dòng M331 and M185 khi mua kèm Laptop văn phòng";
+            label18.Text = "1x Mã giảm on top 100K cho Chuột Logitech dòng M331 and M185 khi mua kèm Laptop văn phòng";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label19.Location = new Point(890, 32);
+            label19.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label19.Location = new Point(1053, 25);
             label19.Name = "label19";
-            label19.Size = new Size(113, 25);
+            label19.Size = new Size(145, 31);
             label19.TabIndex = 12;
             label19.Text = "20.990.000đ";
             // 
@@ -839,7 +1009,7 @@
             numericupdown2.AutoSize = true;
             numericupdown2.BackColor = Color.Transparent;
             numericupdown2.BackgroundImageLayout = ImageLayout.Stretch;
-            numericupdown2.Location = new Point(737, 9);
+            numericupdown2.Location = new Point(867, 8);
             numericupdown2.Name = "numericupdown2";
             numericupdown2.Size = new Size(99, 58);
             numericupdown2.TabIndex = 11;
@@ -848,7 +1018,7 @@
             // 
             label20.AutoSize = true;
             label20.Font = new Font("Segoe UI", 9F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label20.Location = new Point(556, 46);
+            label20.Location = new Point(693, 42);
             label20.Name = "label20";
             label20.Size = new Size(88, 20);
             label20.TabIndex = 10;
@@ -857,12 +1027,13 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label21.Location = new Point(541, 12);
+            label21.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point);
+            label21.Location = new Point(673, 8);
             label21.Name = "label21";
-            label21.Size = new Size(113, 25);
+            label21.Size = new Size(145, 31);
             label21.TabIndex = 9;
             label21.Text = "20.990.000đ";
+            label21.Click += label21_Click;
             // 
             // label22
             // 
@@ -887,6 +1058,8 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
+            checkBox2.Checked = true;
+            checkBox2.CheckState = CheckState.Checked;
             checkBox2.Location = new Point(20, 39);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(18, 17);
@@ -899,11 +1072,12 @@
             label15.Location = new Point(12, 443);
             label15.Margin = new Padding(4, 0, 4, 0);
             label15.Name = "label15";
-            label15.Size = new Size(1010, 1);
+            label15.Size = new Size(1200, 1);
             label15.TabIndex = 25;
             // 
             // panel2
             // 
+            panel2.Controls.Add(label48);
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(label11);
             panel2.Controls.Add(pictureBox2);
@@ -921,8 +1095,19 @@
             panel2.Controls.Add(checkBox1);
             panel2.Location = new Point(12, 137);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1006, 304);
+            panel2.Size = new Size(1201, 304);
             panel2.TabIndex = 7;
+            // 
+            // label48
+            // 
+            label48.AutoSize = true;
+            label48.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label48.ForeColor = Color.Red;
+            label48.Location = new Point(850, 74);
+            label48.Name = "label48";
+            label48.Size = new Size(149, 23);
+            label48.TabIndex = 37;
+            label48.Text = "Xoá khỏi giỏ hàng";
             // 
             // pictureBox3
             // 
@@ -1003,10 +1188,10 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(903, 32);
+            label9.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.Location = new Point(1063, 27);
             label9.Name = "label9";
-            label9.Size = new Size(103, 25);
+            label9.Size = new Size(132, 31);
             label9.TabIndex = 12;
             label9.Text = "9.790.000đ";
             // 
@@ -1015,7 +1200,7 @@
             numericupdown1.AutoSize = true;
             numericupdown1.BackColor = Color.Transparent;
             numericupdown1.BackgroundImageLayout = ImageLayout.Stretch;
-            numericupdown1.Location = new Point(737, 9);
+            numericupdown1.Location = new Point(867, 12);
             numericupdown1.Name = "numericupdown1";
             numericupdown1.Size = new Size(99, 58);
             numericupdown1.TabIndex = 11;
@@ -1024,7 +1209,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label8.Location = new Point(556, 46);
+            label8.Location = new Point(693, 46);
             label8.Name = "label8";
             label8.Size = new Size(88, 20);
             label8.TabIndex = 10;
@@ -1033,10 +1218,10 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(541, 12);
+            label7.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(689, 12);
             label7.Name = "label7";
-            label7.Size = new Size(103, 25);
+            label7.Size = new Size(132, 31);
             label7.TabIndex = 9;
             label7.Text = "9.790.000đ";
             label7.Click += label7_Click;
@@ -1064,6 +1249,8 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.Checked = true;
+            checkBox1.CheckState = CheckState.Checked;
             checkBox1.Location = new Point(20, 39);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(18, 17);
@@ -1073,36 +1260,40 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(94, 96);
+            label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(111, 77);
             label5.Name = "label5";
-            label5.Size = new Size(75, 20);
+            label5.Size = new Size(148, 38);
             label5.TabIndex = 4;
             label5.Text = "Sản phẩm";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(940, 96);
+            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(1055, 77);
             label4.Name = "label4";
-            label4.Size = new Size(78, 20);
+            label4.Size = new Size(158, 38);
             label4.TabIndex = 3;
             label4.Text = "Thành tiền";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(764, 96);
+            label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(862, 77);
             label3.Name = "label3";
-            label3.Size = new Size(69, 20);
+            label3.Size = new Size(137, 38);
             label3.TabIndex = 2;
             label3.Text = "Số lượng";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(586, 96);
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(686, 77);
             label2.Name = "label2";
-            label2.Size = new Size(62, 20);
+            label2.Size = new Size(121, 38);
             label2.TabIndex = 1;
             label2.Text = "Đơn giá";
             // 
@@ -1171,6 +1362,15 @@
             label41.Text = "Màn hình";
             label41.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // label65
+            // 
+            label65.BorderStyle = BorderStyle.FixedSingle;
+            label65.Location = new Point(13, 126);
+            label65.Margin = new Padding(4, 0, 4, 0);
+            label65.Name = "label65";
+            label65.Size = new Size(1200, 1);
+            label65.TabIndex = 35;
+            // 
             // Cart
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -1184,12 +1384,16 @@
             Load += Cart_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
@@ -1201,7 +1405,6 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
@@ -1277,12 +1480,6 @@
         private Panel panel7;
         private PictureBox pictureBox26;
         private Label label51;
-        private PictureBox pictureBox27;
-        private Label label52;
-        private PictureBox pictureBox28;
-        private PictureBox pictureBox29;
-        private Label label53;
-        private Label label54;
         private Label label55;
         private numericupdown numericupdown6;
         private Label label56;
@@ -1309,8 +1506,6 @@
         private Panel panel4;
         private PictureBox pictureBox11;
         private Label label23;
-        private PictureBox pictureBox12;
-        private Label label24;
         private PictureBox pictureBox13;
         private PictureBox pictureBox14;
         private Label label26;
@@ -1325,5 +1520,28 @@
         private Label label61;
         private Label label60;
         private Label label59;
+        private Panel panel6;
+        private Label label47;
+        private PictureBox pictureBox12;
+        private Label label45;
+        private Label label43;
+        private Label label42;
+        private Label label40;
+        private Label label24;
+        private Label label53;
+        private Label label52;
+        private Label label50;
+        private Label label49;
+        private Label label48;
+        private Panel panel9;
+        private PictureBox pictureBox23;
+        private Label label54;
+        private PictureBox pictureBox22;
+        private Label label67;
+        private Label label66;
+        private Label label64;
+        private Label label62;
+        private Label label63;
+        private Label label65;
     }
 }

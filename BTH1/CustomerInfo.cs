@@ -16,5 +16,21 @@ namespace BTH1
         {
             InitializeComponent();
         }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            DetailBill detailBill = new DetailBill();
+            detailBill.Show();
+        }
     }
 }

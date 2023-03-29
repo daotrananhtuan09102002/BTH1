@@ -92,7 +92,8 @@ namespace BTH1
 
         private void label7_Click(object sender, EventArgs e)
         {
-
+            CustomerInfo customerInfo = new CustomerInfo();
+            customerInfo.Show();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
