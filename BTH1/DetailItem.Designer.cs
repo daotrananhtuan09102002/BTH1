@@ -1120,9 +1120,10 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1595, 853);
             Controls.Add(panel6);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DetailItem";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "DetailItem";
+            Text = "Chi tiết sản phẩm";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel4.ResumeLayout(false);

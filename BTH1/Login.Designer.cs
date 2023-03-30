@@ -450,10 +450,11 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(681, 842);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Login";
+            Text = "Đăng nhập";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();

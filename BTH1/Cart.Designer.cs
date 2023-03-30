@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cart));
             label1 = new Label();
             panel1 = new Panel();
+            label65 = new Label();
             panel9 = new Panel();
             pictureBox23 = new PictureBox();
             label54 = new Label();
@@ -139,7 +140,6 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             label44 = new Label();
             label41 = new Label();
-            label65 = new Label();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
@@ -216,6 +216,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1902, 913);
             panel1.TabIndex = 2;
+            // 
+            // label65
+            // 
+            label65.BorderStyle = BorderStyle.FixedSingle;
+            label65.Location = new Point(13, 126);
+            label65.Margin = new Padding(4, 0, 4, 0);
+            label65.Name = "label65";
+            label65.Size = new Size(1200, 1);
+            label65.TabIndex = 35;
             // 
             // panel9
             // 
@@ -1362,21 +1371,13 @@
             label41.Text = "Màn hình";
             label41.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // label65
-            // 
-            label65.BorderStyle = BorderStyle.FixedSingle;
-            label65.Location = new Point(13, 126);
-            label65.Margin = new Padding(4, 0, 4, 0);
-            label65.Name = "label65";
-            label65.Size = new Size(1200, 1);
-            label65.TabIndex = 35;
-            // 
             // Cart
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1902, 913);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Cart";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cart";

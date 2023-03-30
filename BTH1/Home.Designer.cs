@@ -455,6 +455,7 @@
             radioButton8.TabIndex = 4;
             radioButton8.Text = "25 - 30 triệu";
             radioButton8.UseVisualStyleBackColor = true;
+            radioButton8.CheckedChanged += radioButton8_CheckedChanged;
             // 
             // radioButton9
             // 
@@ -1876,8 +1877,9 @@
             Controls.Add(panel30);
             Controls.Add(panel9);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Home";
-            Text = "Home";
+            Text = "Trang chủ";
             WindowState = FormWindowState.Maximized;
             Load += Home_Load;
             panel1.ResumeLayout(false);

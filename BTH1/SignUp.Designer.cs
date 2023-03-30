@@ -503,10 +503,11 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(681, 842);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 5, 4, 5);
             Name = "SignUp";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "SignUp";
+            Text = "Đăng kí";
             Load += SignUp_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

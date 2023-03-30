@@ -917,9 +917,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1397, 818);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CustomerInfo";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "CustomerInfo";
+            Text = "Thông tin khách hàng";
             panel1.ResumeLayout(false);
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
